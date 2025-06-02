@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: 'NagamFont';
+  src: url('Nagam.woff') format('woff');
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.preview {
+  font-family: 'NagamFont', sans-serif;
+  font-size: 32px;
+  border: 1px dashed #ccc;
+  padding: 20px;
+  min-height: 100px;
+  background: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.download-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
